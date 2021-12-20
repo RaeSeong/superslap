@@ -118,7 +118,6 @@ class Hunmin extends Game{
     }
 
     initializeSocketEvents(id, socket, nickname){
-        console.log(socket + ' is entered');
 
         this.joinGame(id);
 
